@@ -52,7 +52,7 @@ int main()  // Main function, starting point of the program execution.
         fTimeRemainder = fTimeCounter - fTime;  // Calculate the remaining time.
     }
 
-    if (fTimeRemainder > 0) // If there is remaining time that is not an integer number, calculate the remaining distance.
+    if (fTimeRemainder > 0.0) // If there is remaining time that is not an integer number, calculate the remaining distance.
     {
         fDistance = fSpeed * fTimeRemainder;
         cout << "Remaining time " << fTimeRemainder << " Hours";
